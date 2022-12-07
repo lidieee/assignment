@@ -22,7 +22,7 @@ const Detail = () => {
           <StDialogHeader>
             <div>ID :{todo.id}</div>
             <StButton
-              borderColor="#ddd"
+              borderColor="cornflowerblue"
               onClick={() => {
                 navigate("/");
               }}
@@ -52,7 +52,7 @@ const StContainer = styled.div`
 const StDialog = styled.div`
   width: 600px;
   height: 400px;
-  border: 1px solid #eee;
+  border: 3px solid lavender;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,4 +81,9 @@ const StButton = styled.button`
   background-color: #fff;
   border-radius: 12px;
   cursor: pointer;
+  &:hover{
+    background: ${({ borderColor }) => borderColor};
+    color: white;
+    font-weight: bold;
+  }
 `;
