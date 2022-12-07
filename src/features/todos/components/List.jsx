@@ -73,7 +73,7 @@ const List = () => {
                     삭제하기
                   </StButton>
                   <StButton
-                    borderColor="green"
+                    borderColor="cornflowerblue"
                     onClick={() => onToggleStatusTodo(todo.id)}
                   >
                     {todo.isDone ? "취소!" : "완료!"}
