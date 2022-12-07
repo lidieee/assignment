@@ -42,7 +42,7 @@ const List = () => {
                     borderColor="cornflowerblue"
                     onClick={() => onToggleStatusTodo(todo.id)}
                   >
-                    {todo.isDone ? "취소!" : "완료!"}
+                    {todo.isDone ? "취소" : "완료"}
                   </StButton>
                 </StDialogFooter>
               </StTodoContainer>
@@ -76,7 +76,7 @@ const List = () => {
                     borderColor="cornflowerblue"
                     onClick={() => onToggleStatusTodo(todo.id)}
                   >
-                    {todo.isDone ? "취소!" : "완료!"}
+                    {todo.isDone ? "취소" : "완료"}
                   </StButton>
                 </StDialogFooter>
               </StTodoContainer>
