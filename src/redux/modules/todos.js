@@ -1,7 +1,7 @@
 const ADD_TODO = "ADD_TODO";
-const GET_TODO_BY_ID = "GET_TODO_BY_ID";
 const DELETE_TODO = "DELETE_TODO";
 const TOGGLE_STATUS_TODO = "TOGGLE_STATUS_TODO";
+const GET_TODO_BY_ID = "GET_TODO_BY_ID";
 
 export const addTodo = (payload) => {
   return {
