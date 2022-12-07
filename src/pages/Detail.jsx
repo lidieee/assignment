@@ -41,7 +41,6 @@ const Detail = () => {
 export default Detail;
 
 const StContainer = styled.div`
-  border: 2px solid #eee;
   width: 100%;
   height: 100vh;
   display: flex;
