@@ -86,6 +86,9 @@ const StAddInput = styled.input`
   border: none;
   border-radius: 12px;
   padding: 0 12px;
+  &:focus{
+    outline: 2px solid cornflowerblue;
+  }
 `;
 
 const StAddButton = styled.button`
