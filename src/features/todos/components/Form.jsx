@@ -97,10 +97,10 @@ const StAddButton = styled.button`
   background-color: rgb(180,206,255);
   color: black;
   width: 140px;
-  color: #fff;
   font-weight: 700;
   &:hover{
     cursor: pointer;
     background: cornflowerblue;
+    color: white;
   }
 `;
