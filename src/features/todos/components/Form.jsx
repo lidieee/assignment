@@ -15,7 +15,6 @@ const Form = () => {
     isDone: false,
   });
 
-  // const todos = useSelector((state) => state.todos.todos);
   const onChangeHandler = (event) => {
     const { name, value } = event.target;
     setTodo({ ...todo, [name]: value });
